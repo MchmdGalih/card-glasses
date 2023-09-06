@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to left, #7395f2, #add8ff);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.card {
+  margin-top: 50px;
+  background-image: url("https://media.istockphoto.com/vectors/web-developer-job-vacancy-template-with-programmer-working-on-laptop-vector-id1286509738?s=612x612");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 500px;
+  box-shadow: -1px 2px 27px 6px rgba(0, 0, 0, 0.34);
+  position: relative;
+  border-radius: 15px;
+}
+.card-item {
+  padding: 30px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+}
+.card-item > h1 {
+  margin-bottom: 15px;
+}
+.card-item > p {
+  font-size: 15px;
+}
